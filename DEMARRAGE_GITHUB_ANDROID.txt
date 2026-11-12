@@ -1,0 +1,32 @@
+GCE ANSWERS — PROJET ANDROID POUR COMPILATION CLOUD
+Powered by Tadjuidje Labs
+
+IMPORTANT : ce ZIP contient le CODE SOURCE Android, pas encore un APK.
+
+DEPUIS UN TELEPHONE ANDROID :
+1. Téléchargez puis décompressez ce ZIP.
+2. Dans GitHub, ouvrez votre dépôt GCE-Answers.
+3. Ajoutez les fichiers ET DOSSIERS contenus dans ce dossier à la racine du dépôt.
+   Il faut notamment conserver le dossier caché .github/workflows.
+4. Validez avec Commit changes.
+5. Dans le dépôt, ouvrez l'onglet Actions.
+6. Choisissez "Build GCE Answers APK" puis "Run workflow" si le workflow ne démarre pas automatiquement.
+7. Attendez la fin du traitement (pastille verte).
+8. Ouvrez l'exécution terminée, descendez à Artifacts et téléchargez
+   "GCE-Answers-debug-APK". Décompressez l'archive téléchargée pour obtenir app-debug.apk.
+9. Ouvrez l'APK sur votre téléphone et autorisez l'installation depuis cette source si Android le demande.
+
+SI LE DOSSIER .github N'APPARAIT PAS :
+GitHub mobile/web peut masquer les dossiers commençant par un point. Activez
+"Afficher les fichiers cachés" dans le gestionnaire de fichiers, ou utilisez
+GitHub dans Chrome avec "Version pour ordinateur".
+
+CE QUE CONTIENT CETTE VERSION :
+- Application Android native légère qui affiche l'interface de démonstration intégrée.
+- Sélection de photo depuis la galerie.
+- Identifiant : com.tadjuidjelabs.gceanswers.
+
+LIMITES :
+Ceci génère un APK de démonstration. Les abonnements, comptes, paiements, panneau
+administrateur et fonctions IA ne sont pas encore reliés à un serveur de production.
+Ne l'utilisez pas pour encaisser de vrais paiements ou gérer de vrais candidats.
